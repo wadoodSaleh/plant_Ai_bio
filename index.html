@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload and Identify</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Upload File for Identification</h1>
+    <form id="uploadForm" action="api.php" method="post" enctype="multipart/form-data">
+        Select image to upload:
+        <input id="fileUpload" type="file" name="fileToUpload" id="fileToUpload">
+        <input id="identifyButton" type="submit" value="Identify Plant" name="submit">
+    </form>
+</div>
+</body>
+</html>

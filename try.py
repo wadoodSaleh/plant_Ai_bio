@@ -1,0 +1,1 @@
+print("Strawberry___healthy")
